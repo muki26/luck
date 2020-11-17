@@ -26,5 +26,5 @@ function luck(){
      else if(luckyS >40 && luckyS <90)
      document.getElementById('lucky1').innerHTML = "Remember LUCK comes nd go!!!";
      else
-     document.getElementById('lucky1').innerHTML = "YOU ARE LUCKIEST PERSON";
+     document.getElementById('lucky1').innerHTML = "YOU ARE A LUCKIEST PERSON";
 }
