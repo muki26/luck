@@ -7,22 +7,35 @@ body{
      overflow-x: hidden;
      overflow-y: hidden;
    background:#ededed;
+   min-height: 100vh;
+}
+#check{
+    position: relative;
+    top: 80px;
+}
+#stat{
+    position: relative;
+    top: 90px;
 }
 .container{
+    width: 100%;
+    margin: 0 auto;
+   justify-content: center;
+   text-align: center;
+}
+.balloons{
+    justify-content: center;
     text-align: center;
 }
 
 .balloons .balloon{
     background-color: #ff3300;
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     display: inline-block;
     margin-top: 100px;
-    color: #ff3300;
-    margin:100px 10px 0px  10px;
-  
-  
+    color: #ff3300; 
 }
 .balloons .balloon:nth-child(2n){
     background-color: #ffce00;
@@ -44,11 +57,12 @@ body{
 .footer{
     position: relative;
     text-align: center;
-    top: 220px;
+    top: 210px;
     font-style: normal;
 }
 #lucky1{
     color:hsl(123, 100%, 25%);
     font-size: 20px;
+    position: relative;
+    top: 80px;
 }
-
