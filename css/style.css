@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: oblique;
+    font-family: cursive;
+     overflow-x: hidden;
+     overflow-y: hidden;
+   background:#ededed;
+}
+.container{
+    text-align: center;
+}
+
+.balloons .balloon{
+    background-color: #ff3300;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 100px;
+    color: #ff3300;
+    margin:100px 10px 0px  10px;
+  
+  
+}
+.balloons .balloon:nth-child(2n){
+    background-color: #ffce00;
+    color: #ffce00;
+}
+.balloons .balloon:nth-child(3n){
+    background-color:#3f7abe;
+    color:#3f7abe;
+}
+#content{
+    display: none;
+    color:#3f7abe;
+    font-size: 40px;
+}
+#lucky{
+    color: #ff3300;
+    font-size: 40px;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    top: 220px;
+    font-style: normal;
+}
+#lucky1{
+    color:hsl(123, 100%, 25%);
+    font-size: 20px;
+}
+
